@@ -1,5 +1,5 @@
 import Logo from "../images/LogoFull.png";
-import DesafioLink from "./DesafioLink";
+import DesafioLink from "../components/DesafioLink";
 
 function Home() {
 

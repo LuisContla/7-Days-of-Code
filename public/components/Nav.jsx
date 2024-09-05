@@ -19,10 +19,10 @@ function Nav() {
                             <a href="/">Inicio</a>
                         </li>
                         <li>
-                            <a href="#">Acerca de</a>
+                            <a href="/about">Acerca de</a>
                         </li>
                         <li>
-                            <a href="#" className="desktop-item">
+                            <a href="" className="desktop-item">
                                 Desafíos
                             </a>
                             <input type="checkbox" id="showDrop" />
@@ -31,25 +31,25 @@ function Nav() {
                             </label>
                             <ul className="drop-menu">
                                 <li>
-                                    <a href="#">Día 1</a>
+                                    <a href="/dayone">Día 1</a>
                                 </li>
                                 <li>
-                                    <a href="#">Día 2</a>
+                                    <a href="/daytwo">Día 2</a>
                                 </li>
                                 <li>
-                                    <a href="#">Día 3</a>
+                                    <a href="/daythree">Día 3</a>
                                 </li>
                                 <li>
-                                    <a href="#">Día 4</a>
+                                    <a href="/dayfour">Día 4</a>
                                 </li>
                                 <li>
-                                    <a href="#">Día 5</a>
+                                    <a href="/dayfive">Día 5</a>
                                 </li>
                                 <li>
-                                    <a href="#">Día 6</a>
+                                    <a href="/daysix">Día 6</a>
                                 </li>
                                 <li>
-                                    <a href="#">Día 7</a>
+                                    <a href="/dayseven">Día 7</a>
                                 </li>
                             </ul>
                         </li>
