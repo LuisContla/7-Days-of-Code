@@ -1,0 +1,64 @@
+body{
+    background: #dcc918;
+}
+
+.contenedor-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding: 1rem;
+}
+
+.logo-presentacion-contenedor{
+    justify-content: center;
+}
+.logo-presentacion-img{
+    height: 16rem;
+}
+
+.descripcion{
+    padding: 2rem;
+    text-align: justify;
+    font-size: 1.2rem;
+    width: 90%;
+}
+
+.desafios{
+    width: 80%;
+}
+
+.desafio-link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 2rem;
+}
+
+.contenedor-desafio-link{
+    background-color: #242526;
+    color: #dcc918;
+    padding: 1rem;
+    text-align: center;
+    width: 35%;
+}
+
+.desafio-dia{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.desafio-nombre{
+    font-size: 1.2rem;
+}
+
+footer {
+    padding: 1.25rem;
+    background-color: #242526;
+    color: #dcc918;
+    text-align: center;
+}
+
+.contacto{
+    color: #dcc918;
+    font-weight: bold;
+}
