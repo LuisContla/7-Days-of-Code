@@ -31,25 +31,25 @@ function Nav() {
                             </label>
                             <ul className="drop-menu">
                                 <li>
-                                    <a href="/dayone">Día 1</a>
+                                    <a href="/day1">Día 1</a>
                                 </li>
                                 <li>
-                                    <a href="/daytwo">Día 2</a>
+                                    <a href="/day2">Día 2</a>
                                 </li>
                                 <li>
-                                    <a href="/daythree">Día 3</a>
+                                    <a href="/day3">Día 3</a>
                                 </li>
                                 <li>
-                                    <a href="/dayfour">Día 4</a>
+                                    <a href="/day4">Día 4</a>
                                 </li>
                                 <li>
-                                    <a href="/dayfive">Día 5</a>
+                                    <a href="/day5">Día 5</a>
                                 </li>
                                 <li>
-                                    <a href="/daysix">Día 6</a>
+                                    <a href="/day6">Día 6</a>
                                 </li>
                                 <li>
-                                    <a href="/dayseven">Día 7</a>
+                                    <a href="/day7">Día 7</a>
                                 </li>
                             </ul>
                         </li>

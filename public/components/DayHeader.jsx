@@ -6,10 +6,12 @@ const DayHeader = (props) => {
     return (
         <>
             <hr />
-            <div className="day-data">
-                <div className="day-title">Día {num}</div>
-                <div className="day-name">{name}</div>
+            <div className="day-header">
                 <div className="day-icon"><img src={src} alt={icon} /></div>
+                <div className="day-data">
+                    <div className="day-title">Día {num}</div>
+                    <div className="day-name">{name}</div>
+                </div>
             </div>
             <hr />
         </>

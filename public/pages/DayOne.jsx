@@ -1,7 +1,8 @@
 import CodeBox from "../components/CodeBox";
 import DayHeader from "../components/DayHeader";
+import SolucionTitle from "../components/SolucionTitle";
 
-function DayOne () {
+function DayOne() {
 
     return (
         <>
@@ -14,13 +15,13 @@ function DayOne () {
                     en tiempo de ejecución. Lo más confuso para mí al comenzar con JavaScript fue la igualdad entre valores.
                     JavaScript convierte los tipos de manera automática, lo que afecta variables como Strings, Numbers u
                     Objects, provocando comportamientos extraños. Por ejemplo, estos casos retornan true:
-                </p>                
+                </p>
                 <CodeBox src="Day1.1.png" />
                 <p>Lo cual no tiene necesariamente mucho sentido. Por lo tanto, mi tarea de fue reescribir el código a
                     continuación para que imprima la información de manera correcta, que tenga sentido y sin errores:
                 </p>
                 <CodeBox src="Day1.2.png" />
-                <hr />
+                <SolucionTitle />
             </div>
         </>
     )

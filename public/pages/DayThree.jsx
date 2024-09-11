@@ -1,5 +1,6 @@
 import CodeBox from "../components/CodeBox";
 import DayHeader from "../components/DayHeader";
+import SolucionTitle from "../components/SolucionTitle";
 
 function DayThree () {
 
@@ -8,7 +9,7 @@ function DayThree () {
             <DayHeader num="3" name="Estructuras de Control de Flujo" icon="DataObjectIcon" />
             <div className="day-contenido">
                 
-                <hr />
+                <SolucionTitle />
             </div>
         </>
     )

@@ -1,5 +1,6 @@
 import CodeBox from "../components/CodeBox";
 import DayHeader from "../components/DayHeader";
+import SolucionTitle from "../components/SolucionTitle";
 
 function DayFour () {
 
@@ -8,7 +9,7 @@ function DayFour () {
             <DayHeader num="4" name="Loops y Randomización" icon="LoopIcon" />
             <div className="day-contenido">
                 
-                <hr />
+                <SolucionTitle />
             </div>
         </>
     )

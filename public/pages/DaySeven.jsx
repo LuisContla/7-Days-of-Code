@@ -1,5 +1,6 @@
 import CodeBox from "../components/CodeBox";
 import DayHeader from "../components/DayHeader";
+import SolucionTitle from "../components/SolucionTitle";
 
 function DaySeven () {
 
@@ -8,7 +9,7 @@ function DaySeven () {
             <DayHeader num="7" name="Funciones en JavaScript" icon="FunctionIcon" />
             <div className="day-contenido">
                 
-                <hr />
+                <SolucionTitle />
             </div>
         </>
     )
