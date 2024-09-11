@@ -1,8 +1,15 @@
+import CodeBox from "../components/CodeBox";
+import DayHeader from "../components/DayHeader";
+
 function DaySix () {
 
     return (
         <>
-            Day 6
+            <DayHeader num="6" name="Remoción de Arrays" icon="RemoveIcon" />
+            <div className="day-contenido">
+                
+                <hr />
+            </div>
         </>
     )
 }

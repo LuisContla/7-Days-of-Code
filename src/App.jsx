@@ -15,13 +15,13 @@ const router = createBrowserRouter(
     <Route path="/" element={<Outlet />}>
       <Route index element={<Home />} />
       <Route path="about" element={<About />} />
-      <Route path="dayone" element={<DayOne />} />
-      <Route path="daytwo" element={<DayTwo />} />
-      <Route path="daythree" element={<DayThree />} />
-      <Route path="dayfour" element={<DayFour />} />
-      <Route path="dayfive" element={<DayFive />} />
-      <Route path="daysix" element={<DaySix />} />
-      <Route path="dayseven" element={<DaySeven />} />
+      <Route path="day1" element={<DayOne />} />
+      <Route path="day2" element={<DayTwo />} />
+      <Route path="day3" element={<DayThree />} />
+      <Route path="day4" element={<DayFour />} />
+      <Route path="day5" element={<DayFive />} />
+      <Route path="day6" element={<DaySix />} />
+      <Route path="day7" element={<DaySeven />} />
     </Route>
   )
 )

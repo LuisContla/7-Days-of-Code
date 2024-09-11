@@ -1,8 +1,15 @@
+import CodeBox from "../components/CodeBox";
+import DayHeader from "../components/DayHeader";
+
 function DayTwo () {
 
     return (
         <>
-            Day 2
+            <DayHeader num="2" name="Variables" icon="VariableIcon" />
+            <div className="day-contenido">
+                
+                <hr />
+            </div>
         </>
     )
 }

@@ -24,7 +24,7 @@ function Home() {
           <DesafioLink day="4" nombre="Loops y Randomización" src="../images/icons/Light/LoopIcon.png" />
           <DesafioLink day="5" nombre="Arrays y Colecciones" src="../images/icons/Light/DataArrayIcon.png" />
           <DesafioLink day="6" nombre="Remoción de Arrays" src="../images/icons/Light/RemoveIcon.png" />
-          <DesafioLink day="7" nombre="Funciones en javascript" src="../images/icons/Light/FunctionIcon.png" />
+          <DesafioLink day="7" nombre="Funciones en JavaScript" src="../images/icons/Light/FunctionIcon.png" />
         </div>
       </div>
     </>

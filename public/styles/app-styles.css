@@ -48,6 +48,10 @@ hr{
     padding: 1rem;
     text-align: center;
     width: 35%;
+    text-decoration: none;
+}.contenedor-desafio-link:hover{
+    scale: 1.1;
+    background-color: #2c2d2e;
 }
 
 .desafio-dia{
@@ -89,6 +93,7 @@ footer {
 
 .code-box{
     width: 40%;
+    margin: 2rem;
 }
 
 .day-contenido{
