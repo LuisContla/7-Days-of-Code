@@ -1,4 +1,4 @@
-const DayTwo = (props) => {
+function DayTwo () {
 
     return (
         <>

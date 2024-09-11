@@ -1,4 +1,4 @@
-const About = (props) => {
+function About () {
 
     return (
         <>

@@ -26,10 +26,12 @@ const router = createBrowserRouter(
   )
 )
 
-function App({routes}) {
+function App({ routes }) {
   return (
     <>
-      <RouterProvider router={router}/>
+      <div className='contenedor-principal'>
+        <RouterProvider router={router} />
+      </div>
     </>
   );
 }
