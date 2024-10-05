@@ -18,13 +18,13 @@ function Home() {
       </div>
       <div className="desafios">
         <div className="desafio-link">
-          <DesafioLink day="1" nombre="Operaciones Booleanas" src="../images/icons/Light/CodeIcon.png" />
-          <DesafioLink day="2" nombre="Variables" src="../images/icons/Light/VariableIcon.png" />
-          <DesafioLink day="3" nombre="Estructuras de Control de Flujo" src="../images/icons/Light/DataObjectIcon.png" />
-          <DesafioLink day="4" nombre="Loops y Randomización" src="../images/icons/Light/LoopIcon.png" />
-          <DesafioLink day="5" nombre="Arrays y Colecciones" src="../images/icons/Light/DataArrayIcon.png" />
-          <DesafioLink day="6" nombre="Remoción de Arrays" src="../images/icons/Light/RemoveIcon.png" />
-          <DesafioLink day="7" nombre="Funciones en JavaScript" src="../images/icons/Light/FunctionIcon.png" />
+          <DesafioLink target ="dayone" day="1" nombre="Operaciones Booleanas" src="../images/icons/Light/CodeIcon.png" />
+          <DesafioLink target ="daytwo" day="2" nombre="Variables" src="../images/icons/Light/VariableIcon.png" />
+          <DesafioLink target ="daythree" day="3" nombre="Estructuras de Control de Flujo" src="../images/icons/Light/DataObjectIcon.png" />
+          <DesafioLink target ="dayfour" day="4" nombre="Loops y Randomización" src="../images/icons/Light/LoopIcon.png" />
+          <DesafioLink target ="dayfive" day="5" nombre="Arrays y Colecciones" src="../images/icons/Light/DataArrayIcon.png" />
+          <DesafioLink target ="daysix" day="6" nombre="Remoción de Arrays" src="../images/icons/Light/RemoveIcon.png" />
+          <DesafioLink target ="dayseven" day="7" nombre="Funciones en JavaScript" src="../images/icons/Light/FunctionIcon.png" />
         </div>
       </div>
     </>

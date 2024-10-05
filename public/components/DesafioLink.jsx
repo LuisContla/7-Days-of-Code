@@ -2,8 +2,7 @@ import { Link } from "react-router-dom";
 
 const DesafioLink = (props) => {
 
-    const { day, nombre, src } = props;
-    const target = "/day" + day;
+    const { target, day, nombre, src } = props;
 
     return (
       <>

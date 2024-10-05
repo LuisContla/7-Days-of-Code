@@ -11,6 +11,7 @@ nav {
   z-index: 99;
   width: 100%;
   background: #242526;
+  margin-bottom: 1rem;
 }
 
 nav .wrapper {
