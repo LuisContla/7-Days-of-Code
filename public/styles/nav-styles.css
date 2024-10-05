@@ -25,7 +25,7 @@ nav .wrapper {
   justify-content: space-between;
 }
 
-.wrapper .logo a {
+.wrapper .logo .a {
   color: #dcc918;
   font-size: 30px;
   font-weight: 600;
@@ -40,7 +40,7 @@ nav .wrapper {
   list-style: none;
 }
 
-.nav-links li a {
+.nav-links li .a {
   color: #dcc918;
   text-decoration: none;
   font-size: 18px;
@@ -50,7 +50,7 @@ nav .wrapper {
   transition: all 0.3s ease;
 }
 
-.nav-links li a:hover {
+.nav-links li .a:hover {
   background: #3A3B3C;
 }
 
@@ -76,7 +76,7 @@ nav .wrapper {
   visibility: visible;
 }
 
-.drop-menu li a {
+.drop-menu li .a {
   width: 100%;
   display: block;
   padding: 0 0 0 15px;
@@ -147,7 +147,7 @@ nav .wrapper {
     margin: 15px 10px;
   }
 
-  .nav-links li a {
+  .nav-links li .a {
     padding: 0 20px;
     display: block;
     font-size: 20px;
@@ -193,7 +193,7 @@ nav .wrapper {
     margin: 0;
   }
 
-  .drop-menu li a {
+  .drop-menu li .a {
     border-radius: 5px;
     font-size: 18px;
   }
