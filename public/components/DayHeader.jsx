@@ -14,6 +14,7 @@ const DayHeader = (props) => {
                 </div>
             </div>
             <hr />
+            <div className="day-instrucciones">Instrucciones:</div>
         </>
     )
 }

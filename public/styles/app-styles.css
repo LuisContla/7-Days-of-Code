@@ -98,6 +98,12 @@ footer {
 .day-name{
     font-size: 1.2rem;
 }
+.day-instrucciones{
+    color: #242526;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
 
 .code-box{
     width: 40%;
@@ -106,6 +112,7 @@ footer {
 
 .day-contenido{
     padding: 2rem;
+    padding-top: 1rem;
     text-align: justify;
     font-size: 1.2rem;
     width: 90%;

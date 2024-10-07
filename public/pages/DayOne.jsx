@@ -8,19 +8,29 @@ function DayOne() {
         <>
             <DayHeader num="1" name="Operaciones Booleanas" icon="CodeIcon" />
             <div className="day-contenido">
-                <p>Ese primer día fue muy importante para mí, ya que al finalizarlo adquirí un conocimiento esencial
-                    para los desafíos que vinieron después. Me pasó muchas veces al usar JavaScript enfrentar problemas
-                    al comparar variables de diferentes tipos. En lenguajes como Java o C#, estos errores se detectan
-                    durante la compilación, pero en JavaScript, al no pasar por un compilador, los errores solo se descubren
-                    en tiempo de ejecución. Lo más confuso para mí al comenzar con JavaScript fue la igualdad entre valores.
-                    JavaScript convierte los tipos de manera automática, lo que afecta variables como Strings, Numbers u
-                    Objects, provocando comportamientos extraños. Por ejemplo, estos casos retornan true:
+
+                <p>
+                    Este primer día es muy importante. Al final de él, tendrás un nuevo conocimiento que es esencial
+                    para los próximos desafíos. Existe una situación muy común para quienes usan Javascript: problemas
+                    con los tipos de variables al comparar los valores de dos variables entre sí. ¡A mí me ha pasado
+                    mucho! En lenguajes de programación compilados, como Java y C#, este problema se detecta en tiempo
+                    de compilación, y tienes un aviso claro del error mientras desarrollas el código.
+                </p><br />
+                <p>
+                    En JavaScript, estos errores pasan desapercibidos, ya que el código no pasa por un compilador. Es
+                    decir, los errores solo aparecen en tiempo de ejecución. La parte más confusa para quienes están
+                    comenzando a aprender lógica con JavaScript es la operación de igualdad entre valores. Dependiendo
+                    de cómo escribas tu código, JavaScript hará una conversión de tipo a un tipo booleano de manera
+                    implícita (automática), y esto afectará a variables que eran Strings, Numbers, Object, etc. Esto
+                    causa algunos comportamientos extraños, como todos estos ejemplos a continuación que retornan true:
                 </p>
                 <CodeBox src="Day1.1.png" />
-                <p>Lo cual no tiene necesariamente mucho sentido. Por lo tanto, mi tarea de fue reescribir el código a
-                    continuación para que imprima la información de manera correcta, que tenga sentido y sin errores:
+                <p>
+                    Lo cual no tiene necesariamente mucho sentido. Por lo tanto, tu tarea de hoy es reescribir el código
+                    a continuación para que imprima la información de manera correcta, que tenga sentido y sin errores:
                 </p>
                 <CodeBox src="Day1.2.png" />
+
                 <SolucionTitle />
             </div>
         </>
